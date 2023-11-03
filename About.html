@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/reset.css">
+
+        <!-- Tippy.js CSS dosyası -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.1/dist/tippy.css">
+
+        <!-- Font Awesome CSS dosyası -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header part Start -->
+  <header>
+    <nav>
+        <div class="containerr">
+            <div class="navclass d-flex justify-content-between align-items-center">
+                <div class="navclass1">
+                    <p>Get free shipping – Free 30 day money back guarantee</p>
+                </div>
+                <div class="navclass2">
+                    <ul >
+                        <li>Store Locations</li>
+                        <li>Track Your Order</li>
+                        <li>Hotline: <a href="">0123456789 </a></li>
+                        <li>Quality Guarantee Of Products</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <nav>   
+        <div class="containerrs">
+            <div class="header-menu-nav d-flex justify-content-between align-items-center">
+                <div>
+                        <a href="İndex.html"><img src="/Assets/Photos/Logo/logo.webp" alt=""></a>
+                </div>
+                <div class="navul">
+                    <ul class="d-flex justify-content-between align-items-center">
+                        <li >HOME</li>
+                        <li><a href="Shop.html">SHOP</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li class="active"><a href="About.html">ABOUT US</a></li>
+                        <li><a href="Contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+               <div class="register">
+                <a href="" class="reg">
+                    <span>Log In</span>
+                    <i class="fa-regular fa-user fa-xl"></i>
+                    <ul>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Register.html">Register</a></li>
+                        <li><a href="Account.htm">My Account</a></li>
+                    </ul>
+                 </a>
+               </div>
+                <div class="nava d-flex justify-content-between align-items-center">
+                  
+                
+                    <a  href="wish.html">
+                        <i class="fa-regular fa-heart"></i>
+                        <span >4</span>
+                    </a>
+                    <a id="open" href="">
+                        <i class="fa fa-shopping-bag"></i>
+                        <span >2</span>
+                    </a>
+                    <span>$152.00</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mini_cart active">
+            <div class="cart_close">
+                <div class="cart_text">
+                    <h3>cart</h3>
+                </div>
+                <div class="mini_cart_close">
+                    <a id="closeBtn" class="close" href="">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cart_item d-flex align-items-center justify-content-between">
+                <div class="cart_img">
+                    <a href="">
+                        <img src="/Assets/Photos/Product/Main-image/iphone14.webp" alt="">
+                    </a>
+                </div>
+                <div class="cart_info">
+                    <a href="">Primis In Faucibus</a>
+                    <p>
+                        Qty: 1 X 
+                        <span> $60.00 </span>
+                    </p>
+                </div>
+                <div class="cart_remove">
+                    <a href="">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cart_item d-flex align-items-center justify-content-between">
+                <div class="cart_img">
+                    <a href="">
+                        <img src="/Assets/Photos/Product/Main-image/iphone14.webp" alt="">
+                    </a>
+                </div>
+                <div class="cart_info">
+                    <a href="">Primis In Faucibus</a>
+                    <p>
+                        Qty: 1 X 
+                        <span> $60.00 </span>
+                    </p>
+                </div>
+                <div class="cart_remove">
+                    <a href="">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cart_item d-flex align-items-center justify-content-between">
+                <div class="cart_img">
+                    <a href="">
+                        <img src="/Assets/Photos/Product/Main-image/iphone14.webp" alt="">
+                    </a>
+                </div>
+                <div class="cart_info">
+                    <a href="">Primis In Faucibus</a>
+                    <p>
+                        Qty: 1 X 
+                        <span> $60.00 </span>
+                    </p>
+                </div>
+                <div class="cart_remove">
+                    <a href="">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mini_cart_table">
+                <div class="cart_total">
+                <span>Sub total:</span>
+                <span class="price">$138.00</span>
+               </div>
+               <div class="cart_total mt-10">
+                <span>total:</span>
+                <span class="price">$138.00</span>
+               </div>
+            </div>
+            
+            <div class="mini_cart_footer">
+                <div class="cart_button">
+                    <a class="view" href="Cart.html">View cart</a>
+                </div>
+                <div class="cart_button">
+                    <a class="check" href="Checkout.html">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--Header Part End--> 
+
+ <!--Search Part Start-->
+ <section>
+    <div class="containerr">
+      <div class="search-common align-items-center justify-content-between d-flex">
+         <div>
+            <div class="categories-menu">
+              <div class="categories-title">
+                  <h2>ALL CATEGORIES</h2>
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="categori_toggle2 ">
+                  <ul class="list-group"> 
+                      <li class="menu_item_children"> 
+                          <a  href="">
+                              Brake Parts 
+                          </a>
+                          <i class="fa fa-angle-right"></i>
+                          <ul class="child-ul d-none">
+                              <li class="child-li">
+                                  <a href="">Dresses</a>
+                                  <ul class="d-flex align-items-center">
+                                      <li>Sweater</li>
+                                      <li>Evening</li>
+                                  </ul>
+                              </li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                          </ul>
+                      </li>
+                      <li class="menu_item_children">
+                          <a href="">
+                              Brake Parts  
+                          </a>
+                          <i class="fa fa-angle-right"></i>
+                          <ul class="d-none">
+                              <li>
+                                  <a href="">Dresses</a>
+                                  <ul>
+                                      <li>Sweater</li>
+                                      <li>Evening</li>
+                                  </ul>
+                              </li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                          </ul>
+                      </li>
+                      <li class="menu_item_children ">
+                          <a href="">
+                              Brake Parts         
+                          </a>
+                          <i class="fa fa-angle-right"></i>
+                          <ul class="d-none">
+                              <li>
+                                  <a href="">Dresses</a>
+                                  <ul>
+                                      <li>Sweater</li>
+                                      <li>Evening</li>
+                                  </ul>
+                              </li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                          </ul>
+                      </li>
+                      <li class="menu_item_children">
+                          <a href="">
+                              Brake Parts  
+                          </a>
+                          <i class="fa fa-angle-right"></i>
+                          <ul class="d-none">
+                              <li>
+                                  <a href="">Dresses</a>
+                                  <ul>
+                                      <li>Sweater</li>
+                                      <li>Evening</li>
+                                  </ul>
+                              </li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                          </ul>
+                      </li> 
+                      <li>Lighting</li>
+                      <li>Accessories</li>
+                      <li>Body Parts</li>
+                      <li>Networking</li>
+                      <li>Perfomance Filters</li>
+                      <li>Body Parts</li>
+                      <li>Networking</li>
+                      <li class="leadmor"><i class="fa-solid fa-plus"></i>
+                          More Categories
+                      </li>
+                  </ul> 
+              </div>
+            </div>
+         </div>
+         <div class="nice-select align-items-center justify-content-between d-flex">
+              <div class="select-option">                 
+                      <span>All Categories</span>
+                      <i class="fa-solid fa-angle-up fa-rotate-180"></i>
+             
+                      <ul class="list-group d-none">
+                          <li class="list-group-item list-group-item-action active">All Categories</li>
+                          <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
+                          <li class="list-group-item list-group-item-action">Morbi leo risus</li>
+                          <li class="list-group-item list-group-item-action">Porta ac consectetur ac</li>
+                          <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
+                      </ul>
+              </div>
+              <input type="text" placeholder="Search Produts ...">
+              <button>SEARCH</button>
+         </div>
+         <div class="bigsales">
+            <a href="">BIG SALE BLACK FRIDAY</a>
+         </div>
+      </div>
+    </div>
+ </section>
+ <!--Search PArt End-->
+
+<!--Bread-crubs area Part Start-->
+<div class="breadcrumbs_area">
+    <div class="containerr">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb_content">
+                    <ul>
+                        <li>
+                            <a href="İndex.html">Home</a>
+                        </li>
+                        <li><i class="fa-solid fa-chevron-down fa-rotate-270"></i></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Bread-crubs area Part Start-->
+
+<!--About Us bg start-->
+<div class="about_bg_area">
+    <div class="containerr">
+        <!--About Section Start-->
+        <section class="about_section mb-60">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <figure>
+                    <div class="about_thumb">
+                        <img src="/Assets/Photos/AbouUs/big1.webp" alt="">
+                    </div>
+                    <figcaption class="about_content">
+                        <h1>We are a digital agency focused on delivering content and utility user-experiences.</h1>
+                        <p>Adipiscing lacus ut elementum, nec duis, tempor litora turpis dapibus. Imperdiet cursus odio tortor in elementum. Egestas nunc eleifend feugiat lectus laoreet, vel nunc taciti integer cras. Hac pede dis, praesent nibh ac dui mauris sit. Pellentesque mi, facilisi mauris, elit sociis leo sodales accumsan. Iaculis ac fringilla torquent lorem consectetuer, sociosqu phasellus risus urna aliquam, ornare.</p>
+                        <div class="about_signature">
+                            <img src="/Assets/Photos/AbouUs/signature.webp" alt="">
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        </section>
+        <!--About Section End-->
+
+
+        <!--Chouse Area Start-->
+        <div class="choseus_area">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="single_chose">
+                        <div class="chose_icone">
+                            <img src="/Assets/Photos/AbouUs/alt1.webp" alt="">
+                        </div>
+                        <div class="chose_content">
+                            <h3>Creative Design</h3>
+                            <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="single_chose">
+                        <div class="chose_icone">
+                            <img src="/Assets/Photos/AbouUs/alt2.webp" alt="">
+                        </div>
+                        <div class="chose_content">
+                            <h3>100% Money Back Guarantee</h3>
+                            <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="single_chose">
+                        <div class="chose_icone">
+                            <img src="/Assets/Photos/AbouUs/alt3.webp" alt="">
+                        </div>
+                        <div class="chose_content">
+                            <h3>Online Support 24/7</h3>
+                            <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Chouse Area End-->
+
+        <!--image are Start-->
+        <div class="about_gallery_section mb-55">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <article class="single_gallery_section">
+                      <figure>
+                        <div class="gallery_thumb">
+                            <img src="/Assets/Photos/AbouUs/galeryimg1.webp" alt="">
+                        </div>
+                        <figcaption class="about_gallery_content">
+                            <h3>What do we do?</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        </figcaption>
+                      </figure>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <article class="single_gallery_section">
+                      <figure>
+                        <div class="gallery_thumb">
+                            <img src="/Assets/Photos/AbouUs/galerimg2.webp" alt="">
+                        </div>
+                        <figcaption class="about_gallery_content">
+                            <h3>Our Mission</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        </figcaption>
+                      </figure>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <article class="single_gallery_section">
+                      <figure>
+                        <div class="gallery_thumb">
+                            <img src="/Assets/Photos/AbouUs/galeryimg3.webp" alt="">
+                        </div>
+                        <figcaption class="about_gallery_content">
+                            <h3>History Of Us</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        </figcaption>
+                      </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!--Image area End-->
+         
+        <!--Tetimonal are Start-->
+        <div class="faq-client-say-area">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="section_title">
+                    <h2>What can we do for you ?</h2>
+                </div>
+                <div class="faq-style-wrap">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a id="octagon" class="collapsed" role="button" data-bs-toggle="collapse" href="#faq-collapse1" aria-expanded="true" aria-controls="faq-collapse1"> 
+                                    
+                                    Fast Free Delivery
+                                    <i class="fa-solid fa-square-caret-up fa-rotate-180"></i>
+                                                                     
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="faq-collapse1" class="collapse show" aria-expanded="true" role="tabpanel" data-bs-parent="#faq-five">
+                            <div class="panel-body">
+                                <p>Nam liber tempor cum soluta nobis eleifend option.</p>
+                                <p>Congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me.
+                                </p>
+                                <p> Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a id="octagon" class="collapsed" role="button" data-bs-toggle="collapse" href="#faq-collapse1" aria-expanded="true" aria-controls="faq-collapse1"> 
+                                    
+                                    More Than 30 Years In The Business
+                                    <i class="fa-solid fa-square-caret-up fa-rotate-180"></i>
+                                                                     
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="faq-collapse2" class="collapse show" aria-expanded="true" role="tabpanel" data-bs-parent="#faq-five">
+                            <div class="panel-body">
+                                <p>Nam liber tempor cum soluta nobis eleifend option.</p>
+                                <p>Congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me.
+                                </p>
+                                <p> Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a id="octagon" class="collapsed" role="button" data-bs-toggle="collapse" href="#faq-collapse1" aria-expanded="true" aria-controls="faq-collapse1"> 
+                                    
+                                    100% Organic Foods
+                                    <i class="fa-solid fa-square-caret-up fa-rotate-180"></i>
+                                                                     
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="faq-collapse3" class="collapse show" aria-expanded="true" role="tabpanel" data-bs-parent="#faq-five">
+                            <div class="panel-body">
+                                <p>Nam liber tempor cum soluta nobis eleifend option.</p>
+                                <p>Congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me.
+                                </p>
+                                <p> Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a id="octagon" class="collapsed" role="button" data-bs-toggle="collapse" href="#faq-collapse1" aria-expanded="true" aria-controls="faq-collapse1"> 
+                                    
+                                    Best Shopping Strategies
+                                    <i class="fa-solid fa-square-caret-up fa-rotate-180"></i>
+                                                                     
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="faq-collapse4" class="collapse show" aria-expanded="true" role="tabpanel" data-bs-parent="#faq-five">
+                            <div class="panel-body">
+                                <p>Nam liber tempor cum soluta nobis eleifend option.</p>
+                                <p>Congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me.
+                                </p>
+                                <p> Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="testimonials-area">
+                    <div class="section_title">
+                        <h2>What Our Customers Says ?</h2>
+                    </div>
+                    <div class="testimonial-two">
+                        <div class="owl-stage-outer">
+                            <img src="/Assets/Photos/AbouUs/testimola.webp" alt="">
+                        </div>
+                       
+                            <p>Support and response has been amazing, helping me with several issues I came across and got them solved almost the same day. A pleasure to work with them!</p>
+                        
+                        
+                            <h6>Kathy Young</h6>
+                            <p>CEO of SunPark</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Testimonal area end-->
+    </div>
+</div>
+<!--About Us bg End-->
+
+<!--Footer Area Start-->
+<footer class="footer_widgets">
+    <!--newsletter area start-->
+
+     <div class="newsletter_area">
+        <div class="containerr">
+            <div class="newsletter_inner">
+                <div class="row">
+                    <div class="col-lg-3 col-md-5">
+                        <div class="newsletter_sing_up">
+                            <h3>Newsletter Sign Up</h3>
+                            <p>(Get 
+                                <span>30% OFF</span>
+                                coupon today subscibers)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="subscribe_content">
+                            <p>
+                                <strong>Join 226.000+ subscribers</strong>
+                            and get a new discount coupon on every Monday.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="subscribe_form">
+                            <form class="mc-form footer-newsletter" novalidate="true">
+                                <input type="email" autocomplete="off" placeholder="Your email address...">
+                                <button>Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <!--newsletter area start-->
+    
+    <!--Footer top start-->
+
+   <div class="footer_top">
+        <div class="containerr">
+            <div class="row">
+                <div class="col-lg-3 col-md-5 col-sm-7">
+                    <div class="widgets_container contact_us">
+                        <h3>GET THE APP</h3>
+                        <div class="aff_content">
+                            <p><strong>ANTOMI</strong>
+                                 App is now available on Google Play &amp; App Store. Get it now.
+                                </p>
+                        </div>
+                        <div class="app_img">
+                            <figure class="app_img">
+                                <a href="">
+                                    <img src="/Assets/Photos/Fouterimages/icon-appstore.webp" alt="">
+                                </a>
+                            </figure>
+                            <figure class="app_img">
+                                <a href="">
+                                    <img src="/Assets/Photos/Fouterimages/icon-googleplay.webp" alt="">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5">
+                    <div class="widgets_container widget_menu">
+                        <h3>Information</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li>
+                                    <a href="">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="">Delivery Information</a>
+                                </li>
+                                <li>
+                                    <a href="">New products</a>
+                                </li>
+                                <li>
+                                    <a href="">Best sales</a>
+                                </li>
+                                <li>
+                                    <a href="">My Account</a>
+                                </li>
+                                <li>
+                                    <a href="">Order History</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>My Account</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li>
+                                    <a href="">My Account</a>
+                                </li>
+                                <li>
+                                    <a href="">Shopping Cart</a>
+                                </li>
+                                <li>
+                                    <a href="">Wish List</a>
+                                </li>
+                                <li>
+                                    <a href="">Prices drop</a>
+                                </li>
+                                <li>
+                                    <a href="">Order History</a>
+                                </li>
+                                <li>
+                                    <a href="">International Orders</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>Customer Service</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li>
+                                    <a href="">Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="">My Account</a>
+                                </li>
+                                <li>
+                                    <a href="">Delivery Information</a>
+                                </li>
+                                <li>
+                                    <a href="">Order History</a>
+                                </li>
+                                <li>
+                                    <a href="">Wish List</a>
+                                </li>
+                                <li>
+                                    <a href="">Specials</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-7 col-sm-12">
+                    <div class="widgets_container">
+                        <h3 class="finsh">CONTACT INFO</h3>
+                        <div class="footer_contact">
+                            <div class="footer_contact_inner d-flex">
+                                <div class="contact_icone">
+                                    <img src="/Assets/Photos/Fouterimages/icon-phone.webp" alt="">
+                                </div>
+                                <div class="contact_text">
+                                    <p>
+                                        Hotline Free 24/24: 
+                                        <br>
+                                        <strong>0123456789</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                Your address goes here. 
+                                <br>
+                                demo@example.com
+                            </p>
+                        </div>
+                       <div class="footer_social">
+                        <ul>
+                            <li >
+                                <a class="facebook" href="">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter" href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a class="instagram" href="">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a class="blnm" href="">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        </ul>
+                       </div>
+                      </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!--Footer top start-->
+</footer>
+<!--Footer area end-->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="glider.js"></script>
+
+<script src="Assets/Js/app.js"></script>
+<script src="/Assets/Js/shop.js"></script>
+<script src="/Assets/Js/about.js"></script>
+</body>
+</html>   
